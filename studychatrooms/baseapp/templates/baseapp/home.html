@@ -3,6 +3,7 @@
 {% block content %}
     <h1>Welcome to study chatrooms</h1>
     <div>
+        <a href="{% url 'create-room' %}">Create new room</a>
         <div>
             {% for room in rooms %}
             <div>
